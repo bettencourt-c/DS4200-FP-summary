@@ -28,37 +28,47 @@ header {
 
 .content-container {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 100%;
-    justify-content: space-between;
-    align-items: flex-start;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 2.5%;
+    justify-content: center; 
+    align-items: flex-start;
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    padding: 4%;
+    background-color: RGB(236,236,236);
+    color: RGB(44,45,43);
+}
+
+.content-container a {
+    color: RGB(148,44,60);
+    text-decoration: none;
+}
+
+.content-container a:hover {
+    text-decoration: underline;
+}
+
+.content-container h1 {
     width: 100%;
-    min-height: 100%;
-    background: RGB(236,236,236);
-}
-
-
-.content-container p {
-    display: block; 
-    max-width: 100%;
-    height: auto;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin: 0 auto;
-    padding: 2.5%;
-    text-align: justify;
-}
-
-.content-container h1  {
-    max-width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 2%;
+
+}
+
+.content-container p {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5%;
+    padding-top: 0;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 
 .contact-info {
